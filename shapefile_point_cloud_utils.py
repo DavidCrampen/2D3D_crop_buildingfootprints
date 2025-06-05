@@ -241,6 +241,9 @@ def crop_point_cloud_boundary_from_huge_shapefile(pc_path, pc_name, shapefile_pa
 
 
 def get_heights_from_polygons(point_cloud, shapefile):
+    """This function is for QGIS internal use
+    Input: point cloud and shapefile
+    Output: json with heights and polygons """
     point_cloud_bbox = get_point_cloud_bbox(point_cloud)
     clipped_shapefile = gpd.clip(shapefile, point_cloud_bbox)
     footprint_polygons = extract_polygons_from_shapefile( clipped_shapefile)

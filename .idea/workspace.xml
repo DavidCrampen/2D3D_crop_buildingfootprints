@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d5d28a9-5f52-474d-b2bb-6269e11762f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/polygon_cropping.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapefile_point_cloud_utils.py" afterDir="false" />
+    <list default="true" id="9d5d28a9-5f52-474d-b2bb-6269e11762f7" name="Changes" comment="This is an example for getting heights from a set of point clouds and shapefiles for building extrusion ...">
+      <change afterPath="$PROJECT_DIR$/check_dummy_extrusions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/point_clouds/3dm_32_293_5629_1_nw.laz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapefiles/cropped_footprints.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapefiles/cropped_footprints.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapefiles/cropped_footprints.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapefiles/cropped_footprints.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapefiles/cropped_footprints.shx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapefile_point_cloud_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapefile_point_cloud_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +42,34 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.check_dummy_extrusions.executor": "Run",
     "Python.shapefile_point_cloud_utils.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.shapefile_point_cloud_utils">
+  <component name="RunManager" selected="Python.check_dummy_extrusions">
+    <configuration name="check_dummy_extrusions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="polygon_cropping" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_dummy_extrusions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="polygon_cropping" />
       <option name="ENV_FILES" value="" />
@@ -91,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.check_dummy_extrusions" />
         <item itemvalue="Python.shapefile_point_cloud_utils" />
       </list>
     </recent_temporary>
@@ -111,7 +137,29 @@
       <option name="presentableId" value="Default" />
       <updated>1749131555338</updated>
     </task>
+    <task id="LOCAL-00001" summary="This is an example for getting heights from a set of point clouds and shapefiles for building extrusion">
+      <option name="closed" value="true" />
+      <created>1749133144256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749133144256</updated>
+    </task>
+    <task id="LOCAL-00002" summary="This is an example for getting heights from a set of point clouds and shapefiles for building extrusion ...">
+      <option name="closed" value="true" />
+      <created>1749133560176</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749133560176</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This is an example for getting heights from a set of point clouds and shapefiles for building extrusion" />
+    <MESSAGE value="This is an example for getting heights from a set of point clouds and shapefiles for building extrusion ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="This is an example for getting heights from a set of point clouds and shapefiles for building extrusion ..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
