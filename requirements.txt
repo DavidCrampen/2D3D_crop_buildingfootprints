@@ -1,0 +1,10 @@
+numpy>=1.21.0,<1.24
+pandas>=1.3.0,<1.5
+geopandas>=0.10,<0.13
+shapely==2.0.3
+pyogrio>=0.5.0
+laspy>=2.0.3
+torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu121 # depending on your cuda version see: https://pytorch.org/get-started/previous-versions/
+tqdm>=4.62.0
+laspy[laszip]
+pyarrow
